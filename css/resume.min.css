@@ -62,8 +62,8 @@ p.lead  {
 }
 
 li {
-    text-transform: uppercase;
-    margin: -7.5px;
+    text-transform: capitalize;
+    margin-bottom: -20px;
 }
 
 .subheading  {
@@ -179,7 +179,8 @@ li {
     }
 
 section.resume-section  {
-    padding-top:5rem!important;
+    /*padding-top:5rem!important;*/
+    padding-top: 8vh;
     padding-bottom:5rem!important;
     max-width:75rem
 }
@@ -187,9 +188,10 @@ section.resume-section  {
 section.resume-section .resume-item .resume-date  {
     min-width:none
 }
-@media (min-width:768px)  {
+ 
+@media (min-width:768px)  { /*For screen sizes greater or equal to 768px Title Section 1?*/
     section.resume-section  {
-        min-height:100vh
+        min-height:80vh
     }
     section.resume-section .resume-item .resume-date  {
         min-width:18rem
