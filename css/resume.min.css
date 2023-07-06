@@ -131,7 +131,7 @@ section.resume-section .resume-item .resume-date  {
 }
 
 
-@media { 
+@media {
     section.resume-section  {
         min-height:80vh
     }
@@ -149,4 +149,8 @@ section.resume-section .resume-item .resume-date  {
 
 a,a:active,a:focus,a:hover  {
     color:#2b8100
+}
+
+.quote {
+    font-style: italic;
 }
